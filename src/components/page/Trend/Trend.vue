@@ -36,6 +36,7 @@
       </div>
 
       <div id="charts1"></div>
+
     </div>
   </div>
 </template>
@@ -296,6 +297,7 @@ export default {
     height: 100%;
     // background: yellow;
     background:rgba(230,240,250,1);
+    overflow-y: auto;
     .tab {
       width: 100%;
       height: 1.6rem;

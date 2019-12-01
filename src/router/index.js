@@ -8,6 +8,8 @@ import Echart from '../views/echart/Echart.vue'
 //趋势图
 const TrendHome = () => import('@/components/page/Trend/Trend.vue')
 
+//排行榜
+const LeaderboardHome = () => import('@/components/page/Leaderboard/Leaderboard.vue')
 Vue.use(Router)
 
 export default new Router({
@@ -32,6 +34,10 @@ export default new Router({
     {
       path: '/',
       component: TrendHome
+    },
+    {
+      path: '/leaderboard',
+      component: LeaderboardHome
     }
     
   ]
